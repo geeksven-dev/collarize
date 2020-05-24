@@ -1,27 +1,34 @@
-.btn-light-brown { background-color: #c38e66; }
-.btn-grey { background-color: #808d7e; }
-.btn-blue { background-color: #5264bb; }
-.btn-brown { background-color: #a46e4d; }
-.btn-dark-green { background-color: #527770; }
-.btn-lagune { background-color: #4fa1bc; }
+.btn-light-brown { background-color: #b27956; }
+.btn-grey { background-color: #818181; }
+.btn-blue { background-color: #314ab1; }
+.btn-brown { background-color: #8c5739; }
+.btn-dark-green { background-color: #21433e; }
+.btn-lagune { background-color: #247f9d; }
 .btn-lilac { background-color: #e3c3c6; }
 .btn-neon-green { background-color: #1ee133; }
 .btn-neon-yellow { background-color: #e3fd20; }
-.btn-yellow { background-color: #f0aa19; }
+.btn-yellow { background-color: #ffd700; }
 .btn-orange { background-color: #f47c1c; }
 .btn-purple { background-color: #4b1f94; }
 .btn-neon-pink { background-color: #fe3957; }
 .btn-red { background-color: #f13833; }
-.btn-wine-red { background-color: #c25858; }
-.btn-green { background-color: #4bb67f; }
-.btn-dark-brown { background-color: #61402c; }
+.btn-wine-red { background-color: #652a48; }
+.btn-green { background-color: #4bb658; }
+.btn-dark-brown { background-color: #2c1f14; }
 .btn-black { background-color: #22251a; }
-.btn-teal { background-color: #16bea0; }
-.btn-petrol { background-color: #2b81a3; }
-.btn-lime { background-color: #a2db1d; }
-.btn-deep-pink { background-color: #ee3478; }
-.btn-peach { background-color: #f79a16; }
-.btn-white { background-color: #ddddd9; }
+.btn-teal { background-color: #19a786; }
+.btn-petrol { background-color: #116684; }
+.btn-lime { background-color: #a4d839; }
+.btn-deep-pink { background-color: #e73676; }
+.btn-peach { background-color: #f5982e; }
+.btn-white { background-color: #dfe0da; }
+.btn-khaki { background-color: #6a5f45; }
+.btn-beige { background-color: #ccbba7; }
+.btn-coral { background-color: #df736a; }
+.btn-gold { background-color: #d3c182; }
+.btn-navy { background-color: #1b2e56; }
+.btn-kiwi { background-color: #bfd372; }
+.btn-skyblue { background-color: #69c6d5; }
 
 /*.shift-light-brown { filter: hue-rotate(-151.19354deg) saturate(100.66197%) brightness(130.23529%); }*/
 /*.shift-grey { filter: hue-rotate(-65.00003deg) saturate(10%) brightness(160.35294%); }*/
@@ -75,27 +82,34 @@
 /*.shift-peach { filter: hue-rotate(-144.8deg) saturate(123.0988%) brightness(201.7974%); }*/
 /*.shift-white { filter: hue-rotate(-120.0deg) saturate(2.445885%) brightness(180.55554%); }*/
 
-.shift-light-brown { filter: hue-rotate(-149.19354deg) saturate(59.615387%) brightness(134.15894%); }
-.shift-grey { filter: hue-rotate(-62.999992deg) saturate(13.297873%) brightness(97.007225%); }
-.shift-blue { filter: hue-rotate(54.71428deg) saturate(70.18717%) brightness(128.65498%); }
-.shift-brown { filter: hue-rotate(-152.24138deg) saturate(66.310974%) brightness(112.8311%); }
-.shift-dark-green { filter: hue-rotate(-6.351349deg) saturate(38.865547%) brightness(81.871346%); }
-.shift-lagune { filter: hue-rotate(19.862381deg) saturate(72.473404%) brightness(129.34297%); }
+.shift-light-brown { filter: hue-rotate(-154deg) saturate(69.33333%) brightness(140%); }
+.shift-grey { filter: hue-rotate(-177deg) saturate(0%) brightness(102%); }
+.shift-blue { filter: hue-rotate(51deg) saturate(96%) brightness(138%); }
+.shift-brown { filter: hue-rotate(-155deg) saturate(78.66666%) brightness(110%); }
+.shift-dark-green { filter: hue-rotate(-6deg) saturate(68%) brightness(52%); }
+.shift-lagune { filter: hue-rotate(18deg) saturate(102%) brightness(124%); }
 .shift-lilac { filter: hue-rotate(179.375deg) saturate(17.621145%) brightness(156.17476%); }
 .shift-neon-green { filter: hue-rotate(-55.538467deg) saturate(200.33333%) brightness(170.79877%); }
 .shift-neon-yellow { filter: hue-rotate(-107.94117deg) saturate(180.18973%) brightness(220.06259%); }
-.shift-yellow { filter: hue-rotate(-120.53488deg) saturate(180.979164%) brightness(170.11867%); }
-.shift-orange { filter: hue-rotate(-148.33334deg) saturate(240.65574%) brightness(150.87065%); }
+.shift-yellow { filter: hue-rotate(-126deg) saturate(133%) brightness(200%); }
+.shift-orange { filter: hue-rotate(-150deg) saturate(118%) brightness(192%); }
 .shift-purple { filter: hue-rotate(87.56409deg) saturate(260.817566%) brightness(50.82319%); }
 .shift-neon-pink { filter: hue-rotate(170.86295deg) saturate(220.948814%) brightness(124.7506%); }
 .shift-red { filter: hue-rotate(-173.42105deg) saturate(250.547714%) brightness(100.80667%); }
-.shift-wine-red { filter: hue-rotate(-180.0deg) saturate(300.298965%) brightness(65.47093%); }
-.shift-green { filter: hue-rotate(-25.841125deg) saturate(73.48901%) brightness(125.215004%); }
-.shift-dark-brown { filter: hue-rotate(-152.35849deg) saturate(68.298965%) brightness(66.735466%); }
+.shift-wine-red { filter: hue-rotate(152deg) saturate(77.33333%) brightness(80%); }
+.shift-green { filter: hue-rotate(-50deg) saturate(78.66666%) brightness(142%); }
+.shift-dark-brown { filter: hue-rotate(-149deg) saturate(74.66666%) brightness(34%); }
 .shift-black { filter: hue-rotate(-98.63637deg) saturate(37.162163%) brightness(25.455797%); }
-.shift-teal { filter: hue-rotate(-5.7142944deg) saturate(110.52631%) brightness(130.71896%); }
-.shift-petrol { filter: hue-rotate(21.999985deg) saturate(100.02454%) brightness(130.1431%); }
-.shift-lime { filter: hue-rotate(-97.00001deg) saturate(150.447495%) brightness(170.6708%); }
+.shift-teal { filter: hue-rotate(-11deg) saturate(113.33333%) brightness(130%); }
+.shift-petrol { filter: hue-rotate(19deg) saturate(116%) brightness(104%); }
+.shift-lime { filter: hue-rotate(-97deg) saturate(98.66666%) brightness(170%); }
 .shift-deep-pink { filter: hue-rotate(155.86295deg) saturate(220.948814%) brightness(90.7506%); }
-.shift-peach { filter: hue-rotate(-139.8deg) saturate(150.8664%) brightness(160.93465%); }
-.shift-white { filter: hue-rotate(-115.0deg) saturate(2.2624438%) brightness(250.04678%); }
+.shift-peach { filter: hue-rotate(-145deg) saturate(108%) brightness(192%); }
+.shift-white { filter: hue-rotate(-115deg) saturate(2.2624438%) brightness(250.04678%); }
+.shift-khaki { filter: hue-rotate(-135deg) saturate(46.66666%) brightness(84%); }
+.shift-beige { filter: hue-rotate(-145deg) saturate(24%) brightness(160%); }
+.shift-coral { filter: hue-rotate(-172deg) saturate(69.33333%) brightness(174%); }
+.shift-gold { filter: hue-rotate(-130deg) saturate(50.66666%) brightness(166%); }
+.shift-navy { filter: hue-rotate(44deg) saturate(92%) brightness(68%); }
+.shift-kiwi { filter: hue-rotate(-105deg) saturate(61.33333%) brightness(166%); }
+.shift-skyblue { filter: hue-rotate(11deg) saturate(102%) brightness(168%); }
