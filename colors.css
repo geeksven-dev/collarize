@@ -30,6 +30,13 @@
 .btn-kiwi { background-color: #bfd372; }
 .btn-skyblue { background-color: #69c6d5; }
 
+/* hardware color*/
+
+.btn-rosegold { background-color: #d0795d; }
+.btn-silver { background-color: #bbbbbb; }
+.btn-goldie { background-color: #e6be60; }
+.btn-blackie { background-color: #000000; }
+
 /*.shift-light-brown { filter: hue-rotate(-151.19354deg) saturate(100.66197%) brightness(130.23529%); }*/
 /*.shift-grey { filter: hue-rotate(-65.00003deg) saturate(10%) brightness(160.35294%); }*/
 /*.shift-blue { filter: hue-rotate(52.714294deg) saturate(110.56847%) brightness(141.7451%); }*/
@@ -113,3 +120,9 @@
 .shift-navy { filter: hue-rotate(44deg) saturate(92%) brightness(68%); }
 .shift-kiwi { filter: hue-rotate(-105deg) saturate(61.33333%) brightness(166%); }
 .shift-skyblue { filter: hue-rotate(11deg) saturate(102%) brightness(168%); }
+
+/* Hardware 
+.shift-silver { filter: hue-rotate(11deg) saturate(167%) brightness(30%); }
+.shift-blackie { filter: hue-rotate(0deg) saturate(0%) brightness(0%); }
+.shift-goldie { filter: hue-rotate(11deg) saturate(102%) brightness(168%); }
+*/
