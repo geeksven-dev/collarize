@@ -1,18 +1,22 @@
 $(document).ready(() => {
-  console.log("doc ready");
+
+  function colorShiftElement(targetElement, element) {
+    const colorShift = $(element).data('colorShift');
+    targetElement.removeClass();
+    targetElement.addClass('shift-'+colorShift);
+  }
 
   $('.shift-fg-btn').click(({currentTarget: element}) => {
-    const colorShift = $(element).data('colorShift');
-    console.log("dop");
-    let foreground = $('#foreground');
-    foreground.removeClass();
-    foreground.addClass('shift-'+colorShift);
+    colorShiftElement($('#foreground'), element);
   });
 
   $('.shift-bg-btn').click(({currentTarget: element}) => {
-    const colorShift = $(element).data('colorShift');
-    let background = $('#background');
-    background.removeClass();
-    background.addClass('shift-'+colorShift);
+    colorShiftElement($('#background'), element);
   });
+
+  $('.shift-hw-btn').click(({currentTarget: element}) => {
+    const hardwareFlavor = $(element).data('flavor');
+    $('#hardware').attr("src",`img/hardware-${hardwareFlavor}.png`);
+  });
+
 });
