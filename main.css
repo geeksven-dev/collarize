@@ -62,6 +62,10 @@ body {
   padding: 10px;
 }
 
+#hardware-selection {
+  padding: 10px;
+}
+
 .round-btn {
   display: inline;
   margin-right: 5px;

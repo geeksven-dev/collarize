@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="main2.css">
+  <link rel="stylesheet" type="text/css" href="colors.css">
+  <script src="jquery-3.5.1.min.js"></script>
+</head>
+<body>
+  <main id="content">
+    <div class="img-container">
+      <img src="img/braid.png" alt="collar_bg" id="foreground"/>
+      <img src="img/base.png" alt="collar_bg" id="background"/>
+      <img src="img/hardware-rosegold.png" alt="collar_hardware" id="hardware"/>
+    </div>
+  </main>
+  <aside id="sidebar">
+    <div class="control-wrapper">
+      <div id="foreground-selection">
+        <span class="color-selection-heading">Base Colour</span>
+        <span class="color-selection-sub-heading">petrol</span>
+        <button data-color-shift="black" class="shift-fg-btn round-btn btn-black" title="black"></button>
+        <button data-color-shift="grey" class="shift-fg-btn round-btn btn-grey" title="grey"></button>
+        <button data-color-shift="white" class="shift-fg-btn round-btn btn-white" title="white"></button>
+        <button data-color-shift="dark-brown" class="shift-fg-btn round-btn btn-dark-brown" title="dark brown"></button>
+        <button data-color-shift="brown" class="shift-fg-btn round-btn btn-brown" title="brown"></button>
+        <button data-color-shift="light-brown" class="shift-fg-btn round-btn btn-light-brown" title="light brown"></button>
+        <button data-color-shift="dark-green" class="shift-fg-btn round-btn btn-dark-green" title="dark green"></button>
+        <button data-color-shift="teal" class="shift-fg-btn round-btn btn-teal" title="teal"></button>
+        <button data-color-shift="neon-green" class="shift-fg-btn round-btn btn-neon-green" title="neon green"></button>
+        <button data-color-shift="kiwi" class="shift-fg-btn round-btn btn-kiwi" title="kiwi"></button>
+        <button data-color-shift="navy" class="shift-fg-btn round-btn btn-navy" title="navy"></button>
+        <button data-color-shift="blue" class="shift-fg-btn round-btn btn-blue" title="blue"></button>
+        <button data-color-shift="petrol" class="shift-fg-btn round-btn btn-petrol" title="petrol"></button>
+        <button data-color-shift="lagune" class="shift-fg-btn round-btn btn-lagune" title="lagune"></button>
+        <button data-color-shift="skyblue" class="shift-fg-btn round-btn btn-skyblue" title="skyblue"></button>
+        <button data-color-shift="purple" class="shift-fg-btn round-btn btn-purple" title="purple"></button>
+        <button data-color-shift="wine-red" class="shift-fg-btn round-btn btn-wine-red" title="wine red"></button>
+        <!-- <button data-color-shift="lilac" class="shift-fg-btn round-btn btn-lilac" title="lilac"></button> -->
+        <button data-color-shift="red" class="shift-fg-btn round-btn btn-red" title="red"></button>
+        <button data-color-shift="neon-pink" class="shift-fg-btn round-btn btn-neon-pink" title="neon pink"></button>
+        <button data-color-shift="deep-pink" class="shift-fg-btn round-btn btn-deep-pink" title="deep pink"></button>
+        <button data-color-shift="coral" class="shift-fg-btn round-btn btn-coral" title="coral"></button>
+        <button data-color-shift="orange" class="shift-fg-btn round-btn btn-orange" title="orange"></button>
+        <button data-color-shift="peach" class="shift-fg-btn round-btn btn-peach" title="peach"></button>
+        <button data-color-shift="yellow" class="shift-fg-btn round-btn btn-yellow" title="yellow"></button>
+        <button data-color-shift="neon-yellow" class="shift-fg-btn round-btn btn-neon-yellow" title="neon yellow"></button>
+        <!-- <button data-color-shift="green" class="shift-fg-btn round-btn btn-green" title="green"></button> -->
+        <!-- <button data-color-shift="lime" class="shift-fg-btn round-btn btn-lime" title="lime"></button> -->
+        <button data-color-shift="khaki" class="shift-fg-btn round-btn btn-khaki" title="khaki"></button>
+        <button data-color-shift="beige" class="shift-fg-btn round-btn btn-beige" title="beige"></button>
+        <button data-color-shift="gold" class="shift-fg-btn round-btn btn-gold" title="gold"></button>
+      </div>
+
+      <div id="background-selection">
+        <span class="color-selection-heading">Braid colour</span>
+        <span class="color-selection-sub-heading">petrol</span>
+        <button data-color-shift="black" class="shift-bg-btn round-btn btn-black"></button>
+        <button data-color-shift="grey" class="shift-bg-btn round-btn btn-grey"></button>
+        <button data-color-shift="white" class="shift-bg-btn round-btn btn-white"></button>
+        <button data-color-shift="dark-brown" class="shift-bg-btn round-btn btn-dark-brown"></button>
+        <button data-color-shift="brown" class="shift-bg-btn round-btn btn-brown"></button>
+        <button data-color-shift="light-brown" class="shift-bg-btn round-btn btn-light-brown"></button>
+        <button data-color-shift="dark-green" class="shift-bg-btn round-btn btn-dark-green"></button>
+        <button data-color-shift="teal" class="shift-bg-btn round-btn btn-teal"></button>
+        <button data-color-shift="neon-green" class="shift-bg-btn round-btn btn-neon-green"></button>
+        <button data-color-shift="kiwi" class="shift-fg-btn round-btn btn-kiwi" title="kiwi"></button>
+        <button data-color-shift="navy" class="shift-bg-btn round-btn btn-navy" title="navy"></button>
+        <button data-color-shift="blue" class="shift-bg-btn round-btn btn-blue"></button>
+        <button data-color-shift="petrol" class="shift-bg-btn round-btn btn-petrol"></button>
+        <button data-color-shift="lagune" class="shift-bg-btn round-btn btn-lagune"></button>
+        <button data-color-shift="skyblue" class="shift-bg-btn round-btn btn-skyblue" title="skyblue"></button>
+        <button data-color-shift="purple" class="shift-bg-btn round-btn btn-purple"></button>
+        <button data-color-shift="wine-red" class="shift-bg-btn round-btn btn-wine-red"></button>
+        <!-- <button data-color-shift="lilac" class="shift-bg-btn round-btn btn-lilac"></button> -->
+        <button data-color-shift="red" class="shift-bg-btn round-btn btn-red"></button>
+        <button data-color-shift="neon-pink" class="shift-bg-btn round-btn btn-neon-pink"></button>
+        <button data-color-shift="deep-pink" class="shift-bg-btn round-btn btn-deep-pink"></button>
+        <button data-color-shift="coral" class="shift-bg-btn round-btn btn-coral" title="coral"></button>
+        <button data-color-shift="orange" class="shift-bg-btn round-btn btn-orange"></button>
+        <button data-color-shift="peach" class="shift-bg-btn round-btn btn-peach"></button>
+        <button data-color-shift="yellow" class="shift-bg-btn round-btn btn-yellow"></button>
+        <button data-color-shift="neon-yellow" class="shift-bg-btn round-btn btn-neon-yellow"></button>
+        <!-- <button data-color-shift="green" class="shift-bg-btn round-btn btn-green"></button> -->
+        <!-- <button data-color-shift="lime" class="shift-bg-btn round-btn btn-lime"></button> -->
+        <button data-color-shift="khaki" class="shift-bg-btn round-btn btn-khaki" title="khaki"></button>
+        <button data-color-shift="beige" class="shift-bg-btn round-btn btn-beige" title="beige"></button>
+        <button data-color-shift="gold" class="shift-bg-btn round-btn btn-gold" title="gold"></button>
+      </div>
+
+      <div id="hardware-selection">
+        <span class="color-selection-heading">Hardware</span>
+        <span class="color-selection-sub-heading">rosegold</span>
+        <button data-flavor="silver" class="shift-hw-btn round-btn btn-silver"></button>
+        <button data-flavor="gold" class="shift-hw-btn round-btn btn-goldie"></button>
+        <button data-flavor="rosegold" class="shift-hw-btn round-btn btn-rosegold"></button>
+        <button data-flavor="black" class="shift-hw-btn round-btn btn-blackie"></button>
+      </div>
+    </div>
+  </aside>
+
+  <script src="main.js"></script>
+</body>
+</html>
