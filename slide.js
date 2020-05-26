@@ -10,11 +10,9 @@ $(document).ready(() => {
       $(document).bind('touchend', function (e){
         const te = e.originalEvent.changedTouches[0].clientX;
         if(ts > te+5){
-          console.log(`touch event right`);
-          changeSlide(true);
-        }else if(ts < te-5){
-          console.log(`touch event left`);
           changeSlide(false);
+        }else if(ts < te-5){
+          changeSlide(true);
         }
       });
 
