@@ -1,6 +1,17 @@
+@media only screen and (min-width: 768px) {
+  .carousel {
+    justify-self: end;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .carousel {
+    justify-self: center;
+  }
+}
+
 .carousel {
   align-self: center;
-  justify-self: end;
   height: 200px;
   width: 360px;
   display: grid;
