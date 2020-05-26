@@ -14,13 +14,11 @@
   .img-container {
     width: 300px;
     height: 200px;
-    margin-right: 20px;
-    align-self: center;
-    justify-self: end;
   }
 
   .control-wrapper {
     justify-self: start;
+    align-self: center;
     margin-left: 20px;
   }
 
@@ -37,7 +35,7 @@
     display: grid;
     background-color: #efefef;
     grid-template-columns: auto;
-    grid-template-rows: 1fr auto;
+    grid-template-rows: 200px auto;
     grid-template-areas:
         "content"
         "sidebar";
@@ -46,6 +44,10 @@
   .img-container {
     width: 300px;
     height: 200px;
+  }
+
+  .control-wrapper {
+    align-self: start;
   }
 }
 
@@ -63,21 +65,17 @@
   justify-items: center;
 }
 
-.control-wrapper {
-  align-self: center;
-}
-
-#background {
+.background {
   position: absolute;
   width: 300px;
 }
 
-#foreground {
+.foreground {
   position: absolute;
   width: 300px;
 }
 
-#hardware {
+.hardware {
   position: absolute;
   width: 300px;
 }
@@ -111,8 +109,8 @@
   display: inline;
   margin-right: 5px;
   margin-bottom: 5px;
-  height: 20px;
-  width: 20px;
+  height: 30px;
+  width: 30px;
   border-radius: 50%;
   border: 1px solid #999;
   cursor: pointer;

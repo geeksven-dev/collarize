@@ -1,0 +1,71 @@
+.carousel {
+  align-self: center;
+  justify-self: end;
+  height: 200px;
+  width: 360px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.carousel > button {
+  width: 30px;
+  height: 30px;
+  outline: none;
+  border: none;
+  background: transparent;
+  font-size: 24px;
+  color: #cccccc;
+}
+
+.carousel > button:hover {
+  color: #999999;
+  cursor: pointer;
+}
+
+.carousel > button.slider-prev {
+  justify-self: end;
+}
+
+.carousel > button.slider-next {
+  justify-self: start;
+}
+
+/* animations */
+.active {
+  z-index: 1000;
+}
+
+.slideInLeft {
+  animation-name: animateInLeft;
+  z-index: 1000;
+}
+
+.slideInRight {
+  animation-name: animateInRight;
+  z-index: 1000;
+}
+
+@keyframes animateInLeft {
+  0% {
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 100%;
+  }
+}
+
+@keyframes animateInRight {
+  0% {
+    transform: translateX(50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 100%;
+  }
+}
