@@ -20,7 +20,14 @@ $(document).ready(() => {
   $('.shift-hw-btn').click(({currentTarget: element}) => {
     const hardwareFlavor = $(element).data('flavor');
     $(element).parent().find('.color-selection-sub-heading').text(hardwareFlavor);
-    $('.hardware').attr("src",`img/hardware-${hardwareFlavor}.png`);
+    const hardwares = $('.hardware');
+    hardwares.each((idx, domElement) => {
+      let hardware = $(domElement);
+      const src = hardware.attr("src");
+      const newSrc = src.split("-")[0] + `-${hardwareFlavor}.png`;
+      hardware.attr("src",newSrc);
+    })
+
   });
 
 });

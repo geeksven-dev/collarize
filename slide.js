@@ -3,11 +3,12 @@ $(document).ready(() => {
 
   function initSlider() {
       let ts;
-      $(document).bind('touchstart', function (e){
-        ts = e.originalEvent.touches[0].clientX;
-      });
+      let carousel = $('.carousel');
+      carousel.bind('touchstart', function (e){
+          ts = e.originalEvent.touches[0].clientX;
+        });
 
-      $(document).bind('touchend', function (e){
+      carousel.bind('touchend', function (e){
         const te = e.originalEvent.changedTouches[0].clientX;
         if(ts > te+5){
           changeSlide(false);
