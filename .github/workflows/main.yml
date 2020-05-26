@@ -14,3 +14,4 @@ jobs:
           ftp-server: ftp://78.46.179.11/httpdocs/public_html/collarize
           ftp-username: geeksvp
           ftp-password: ${{ secrets.FTP_PASSWORD }}
+          git-ftp-args: --all
