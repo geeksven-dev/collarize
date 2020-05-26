@@ -2,8 +2,20 @@ $(document).ready(() => {
   let activeIdx = 0;
 
   function initSlider() {
-      $('.carousel').on("touchmove", (e) => {
-        console.log(`touch event`, e);
+      let ts;
+      $(document).bind('touchstart', function (e){
+        ts = e.originalEvent.touches[0].clientX;
+      });
+
+      $(document).bind('touchend', function (e){
+        const te = e.originalEvent.changedTouches[0].clientX;
+        if(ts > te+5){
+          console.log(`touch event right`);
+          changeSlide(true);
+        }else if(ts < te-5){
+          console.log(`touch event left`);
+          changeSlide(false);
+        }
       });
 
       let slides = $('.slide');
