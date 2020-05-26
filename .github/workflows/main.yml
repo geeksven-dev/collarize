@@ -18,3 +18,4 @@ jobs:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
           dokku-host: 'geeksven.com'
           app-name: 'collarize'
+
