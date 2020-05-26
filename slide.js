@@ -3,7 +3,7 @@ $(document).ready(() => {
 
   function initSlider() {
       $('.carousel').on("touchmove", (e) => {
-        console.log(`touch event ${e}`);
+        console.log(`touch event`, e);
       });
 
       let slides = $('.slide');
