@@ -2,6 +2,10 @@ $(document).ready(() => {
   let activeIdx = 0;
 
   function initSlider() {
+      $('.carousel').on("touchmove", (e) => {
+        console.log(`touch event ${e}`);
+      });
+
       let slides = $('.slide');
       slides.each((idx, domElement) => {
         const element = $(domElement);
