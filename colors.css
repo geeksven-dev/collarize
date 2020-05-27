@@ -22,7 +22,7 @@
 .btn-deep-pink { background-color: #e73676; }
 .btn-peach { background-color: #f5982e; }
 .btn-white { background-color: #dfe0da; }
-.btn-khaki { background-color: #6a5f45; }
+.btn-khaki { background-color: #575853; }
 .btn-beige { background-color: #ccbba7; }
 .btn-coral { background-color: #df736a; }
 .btn-gold { background-color: #d3c182; }
@@ -93,7 +93,7 @@
 .shift-grey { filter: hue-rotate(-177deg) saturate(0%) brightness(102%); }
 .shift-blue { filter: hue-rotate(41deg) saturate(132%) brightness(90%); }
 .shift-brown { filter: hue-rotate(-152deg) saturate(92%) brightness(72%); }
-.shift-dark-green { filter: hue-rotate(-6deg) saturate(68%) brightness(52%); }
+.shift-dark-green { filter: hue-rotate(-6deg) saturate(68%) brightness(65%); }
 .shift-lagune { filter: hue-rotate(18deg) saturate(102%) brightness(124%); }
 .shift-lilac { filter: hue-rotate(179.375deg) saturate(17.621145%) brightness(156.17476%); }
 .shift-neon-green { filter: hue-rotate(-55.538467deg) saturate(200.33333%) brightness(170.79877%); }
@@ -102,7 +102,7 @@
 .shift-orange { filter: hue-rotate(-151deg) saturate(133%) brightness(190%); }
 .shift-purple { filter: hue-rotate(87.56409deg) saturate(260.817566%) brightness(50.82319%); }
 .shift-neon-pink { filter: hue-rotate(170.86295deg) saturate(220.948814%) brightness(124.7506%); }
-.shift-red { filter: hue-rotate(-173.42105deg) saturate(250.547714%) brightness(100.80667%); }
+.shift-red { filter: hue-rotate(-173.42105deg) saturate(250.547714%) brightness(80.80667%); }
 .shift-wine-red { filter: hue-rotate(152deg) saturate(77.33333%) brightness(80%); }
 .shift-green { filter: hue-rotate(-50deg) saturate(78.66666%) brightness(142%); }
 .shift-dark-brown { filter: hue-rotate(-151deg) saturate(68%) brightness(50%); }
@@ -110,16 +110,16 @@
 .shift-teal { filter: hue-rotate(-11deg) saturate(113.33333%) brightness(130%); }
 .shift-petrol { filter: hue-rotate(19deg) saturate(116%) brightness(104%); }
 .shift-lime { filter: hue-rotate(-97deg) saturate(98.66666%) brightness(170%); }
-.shift-deep-pink { filter: hue-rotate(155.86295deg) saturate(220.948814%) brightness(90.7506%); }
+.shift-deep-pink { filter: hue-rotate(155deg) saturate(220.948814%) brightness(85.7506%); }
 .shift-peach { filter: hue-rotate(-145deg) saturate(108%) brightness(192%); }
 .shift-white { filter: hue-rotate(-115deg) saturate(2.2624438%) brightness(250.04678%); }
-.shift-khaki { filter: hue-rotate(-135deg) saturate(46.66666%) brightness(84%); }
+.shift-khaki { filter: hue-rotate(-105deg) saturate(8%) brightness(70%); }
 .shift-beige { filter: hue-rotate(-145deg) saturate(24%) brightness(160%); }
 .shift-coral { filter: hue-rotate(-172deg) saturate(69.33333%) brightness(174%); }
 .shift-gold { filter: hue-rotate(-130deg) saturate(50.66666%) brightness(166%); }
-.shift-navy { filter: hue-rotate(44deg) saturate(92%) brightness(68%); }
+.shift-navy { filter: hue-rotate(44deg) saturate(100%) brightness(68%); }
 .shift-kiwi { filter: hue-rotate(-98deg) saturate(135%) brightness(176%); }
-.shift-skyblue { filter: hue-rotate(11deg) saturate(102%) brightness(168%); }
+.shift-skyblue { filter: hue-rotate(19deg) saturate(49%) brightness(180%); }
 
 /* Hardware 
 .shift-silver { filter: hue-rotate(11deg) saturate(167%) brightness(30%); }
