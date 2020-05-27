@@ -1,13 +1,13 @@
 $(document).ready(() => {
 
-  function colorShiftElement(targetElement, element) {
+  const colorShiftElement = (targetElement, element) => {
     const colorShift = $(element).data('colorShift');
     $(element).parent().find('.color-selection-sub-heading').text(colorShift);
     targetElement.removeClass((index, className) => {
       return (className.match (/(^|\s)shift-\S+/g) || []).join(' ');
     });
     targetElement.addClass('shift-'+colorShift);
-  }
+  };
 
   $('.shift-fg-btn').click(({currentTarget: element}) => {
     colorShiftElement($('.foreground'), element);

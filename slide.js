@@ -1,7 +1,7 @@
 $(document).ready(() => {
   let activeIdx = 0;
 
-  function initSlider() {
+  const initSlider = () => {
       let ts;
       let carousel = $('.carousel');
       carousel.bind('touchstart', function (e){
@@ -41,9 +41,9 @@ $(document).ready(() => {
       $('.slider-next').click(() => {
         changeSlide(true);
       });
-  }
+  };
 
-  function changeSlide(forward) {
+  const changeSlide = (forward) => {
     let slides = $('.slide');
     const numSlides = slides.length;
     activeIdx = (forward) ? (activeIdx + 1 < numSlides ? activeIdx + 1 : 0) : (activeIdx - 1 < 0 ? numSlides - 1 : activeIdx - 1);
@@ -59,7 +59,7 @@ $(document).ready(() => {
         element.hide();
       }
     });
-  }
+  };
 
   initSlider();
 });
