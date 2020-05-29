@@ -29,6 +29,7 @@
 .btn-navy { background-color: #1b2e56; }
 .btn-kiwi { background-color: #b2db00; }
 .btn-skyblue { background-color: #69c6d5; }
+.btn-none {background-color: #ffffff;}
 
 /* hardware color*/
 
@@ -120,6 +121,7 @@
 .shift-navy { filter: hue-rotate(44deg) saturate(100%) brightness(68%); }
 .shift-kiwi { filter: hue-rotate(-98deg) saturate(135%) brightness(176%); }
 .shift-skyblue { filter: hue-rotate(19deg) saturate(49%) brightness(180%); }
+.shift-none { filter : opacity(0%); }
 
 /* Hardware 
 .shift-silver { filter: hue-rotate(11deg) saturate(167%) brightness(30%); }

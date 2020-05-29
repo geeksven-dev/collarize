@@ -17,6 +17,10 @@ $(document).ready(() => {
     colorShiftElement($('.background'), element);
   });
 
+  $('.shift-rn-btn').click(({currentTarget: element}) => {
+    colorShiftElement($('.rhinestones'), element);
+  });
+
   $('.shift-hw-btn').click(({currentTarget: element}) => {
     const hardwareFlavor = $(element).data('flavor');
     $(element).parent().find('.color-selection-sub-heading').text(hardwareFlavor);
