@@ -7,6 +7,7 @@ $(document).ready(() => {
       return (className.match (/(^|\s)shift-\S+/g) || []).join(' ');
     });
     targetElement.addClass('shift-'+colorShift);
+    targetElement.show();
   };
 
   $('.shift-fg-btn').click(({currentTarget: element}) => {
